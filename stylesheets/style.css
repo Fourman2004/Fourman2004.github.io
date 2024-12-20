@@ -1,8 +1,7 @@
-@import"{{site.theme}}"
 
-body {
-    background-color: darkgrey;
-  }
+ body {
+  background-color: darkslategrey;
+ }
   
   h1 {
     color: #FFD700;
