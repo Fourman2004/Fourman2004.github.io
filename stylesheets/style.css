@@ -13,14 +13,28 @@
   text-align:center;
   }
   
-  
   h3 {
   color: rgb(114, 101, 201);
   text-align:center;
   }
   
-  
   p {
     color: slategray;
   text-align:center;
+  }
+
+  a:link {
+    color:aqua;
+  }
+
+  a:visited  {
+ color:cadetblue;
+  }
+
+  a:active {
+    color:aquamarine;
+  }
+
+  a:hover {
+ color:darkcyan;
   }
