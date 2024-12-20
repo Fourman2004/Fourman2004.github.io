@@ -4,23 +4,23 @@
  }
   
   h1 {
-    color: #FFD700;
+    color: darkslateblue;
    text-align:center;
   }
   
   h2 {
-  color: #d4af37;
+  color: lightslategray;
   text-align:center;
   }
   
   
   h3 {
-  color: purple;
+  color: slateblue;
   text-align:center;
   }
   
   
   p {
-    color: #7851A9;
+    color: slategray;
   text-align:center;
   }
