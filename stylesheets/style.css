@@ -1,19 +1,27 @@
 @import"{{site.theme}}"
 
-h1 {
-  color: #FFD700;
-}
-
-h2 {
-color: #d4af37
-}
-
-
-h3 {
-color: purple;
-}
-
-
-p {
-  color: #7851A9;
-}
+body {
+    background-color: darkgrey;
+  }
+  
+  h1 {
+    color: #FFD700;
+   text-align:center;
+  }
+  
+  h2 {
+  color: #d4af37;
+  text-align:center;
+  }
+  
+  
+  h3 {
+  color: purple;
+  text-align:center;
+  }
+  
+  
+  p {
+    color: #7851A9;
+  text-align:center;
+  }
