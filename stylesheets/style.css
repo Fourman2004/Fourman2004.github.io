@@ -38,3 +38,12 @@
   a:hover {
  color:darkcyan;
   }
+
+  li {
+    display: inline;
+    background-color: rgb(5, 57, 40);
+  }
+
+  ul {
+    list-style-type: none;
+  }
