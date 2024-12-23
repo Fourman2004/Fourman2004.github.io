@@ -23,6 +23,11 @@
   text-align:center;
   }
 
+ a {
+  display: block;
+  padding: 8px;
+ }
+
   a:link {
     color:aqua;
   }
@@ -41,10 +46,13 @@
 
   li {
     display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
     background-color: rgb(5, 57, 40);
   }
 
   ul {
     list-style-type: none;
-    position:sticky;
+    position: sticky;
   }
