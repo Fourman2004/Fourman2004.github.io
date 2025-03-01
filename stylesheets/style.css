@@ -18,9 +18,11 @@
   text-align:center;
   }
   
+
+  
 div.Showcase {
     border-width: 10px;
-    border-style: dashed;
+    border-style:solid;
     margin: auto;
     float:left;
     border-color: rgb(69, 69, 69);
