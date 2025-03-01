@@ -19,13 +19,43 @@
   }
   
 div.Showcase {
-  background-color: rgb(96, 82, 184);
-    border-width: auto;
+    border-width: 10px;
     border-style: dashed;
+    margin: auto;
+    float:left;
     border-color: rgb(69, 69, 69);
+    height: 350px;
+    width: 205px;
 }
-div.Box1 {
-  background-color: rgb(30, 24, 68);
+
+p.github {
+  background-color: rgb(231, 30, 154);
+  height:40px;
+ width:195px;
+}
+
+p.itch {
+  background-color: rgb(7, 65, 109);
+  height:40px;
+  width:195px
+}
+
+p.project-name
+{
+height:40px;
+width:195px;
+background-color: rgb(118, 13, 150);
+color:#ffffff;
+text-align:left;
+vertical-align:text-top;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+
+img.Thumbnail
+{
+  position: relative;
 }
 
   p {
