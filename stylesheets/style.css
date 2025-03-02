@@ -86,8 +86,9 @@ img.Thumbnail
 }
 
   p {
-    color: rgb(47, 54, 61);
+    color: rgb(122, 175, 227);
     text-align: justify;
+    font-size: large;
   }
 
  a {
