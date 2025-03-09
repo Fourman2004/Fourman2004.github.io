@@ -67,23 +67,6 @@ p.itch {
   width:205px;
 }
 
-p.project-name
-{
-height:40px;
-width:205px;
-background-color: rgb(118, 13, 150);
-color:#ffffff;
-text-align:left;
-vertical-align:text-top;
-line-height:auto;
-border-style:hidden;
-outline:none;
-}
-
-img.Thumbnail
-{
-  position: relative;
-}
 
   p {
     color: rgb(122, 175, 227);
