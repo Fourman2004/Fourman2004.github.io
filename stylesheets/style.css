@@ -1,21 +1,24 @@
 
  body {
-  background-color: rgb(34, 29, 65);
+  background-color: rgb(15, 0, 113);
  }
   
   h1 {
-    color: rgb(116, 193, 193);
+    color: rgb(170, 19, 19);
    text-align:center;
+   font-family: Conduit_Bold;
   }
   
   h2 {
-  color: lightslategray;
+  color: rgb(149, 64, 12);
   text-align:center;
+  font-family: Conduit_Bold;
   }
   
   h3 {
-  color: rgb(114, 101, 201);
+  color: rgb(201, 101, 101);
   text-align:center;
+  font-family: Conduit_Bold;
   }
   
 div.work{
@@ -29,7 +32,7 @@ div.Showcase {
     margin-bottom: 10px;
     margin-left: 10px;
     float:left;
-    border-color: rgb(69, 69, 69);
+    border-color: rgb(255, 179, 0);
     height: 390px;
     width: 205px;
 }
@@ -41,37 +44,74 @@ div.Social {
   margin-bottom: 10px;
   margin-left: 10px;
   float:left;
-  border-color: rgb(64, 233, 137);
+  margin-top: 250px;
+  border-color: rgb(228, 145, 0);
   height: 220px;
   width: 225px;
+}
+
+a.Email {
+  font-family: Conduit_Bold;
+  position: relative;
+  top: 150px;
+  right: 100px;
+  text-align: center;
+  font-size: larger;
 }
 
 p.github {
   background-color: rgb(231, 30, 154);
   text-align: center;
-  height:40px;
+  height:30px;
  width: 205px;;
 }
 
 p.GGJ {
-  background-color: rgb(15, 219, 192);
+  background-color: rgb(44, 144, 191);
   text-align: center;
-  height:40px;
+ height:30px;
  width: 205px;;
 }
 
 p.itch {
-  background-color: rgb(13, 114, 192);
-  height:40px;
+  background-color: rgb(251, 134, 104);
+  color:#ffffff;
+  height: 30px;
   text-align: center;
   width:205px;
 }
 
 p.project-name
 {
-height:40px;
+height:30px;
 width:205px;
-background-color: rgb(118, 13, 150);
+background-color: rgb(60, 96, 196);
+color:#ffffff;
+text-align:left;
+vertical-align:text-top;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+
+p.Gamejam
+{
+height:30px;
+width:205px;
+background-color: rgb(25, 40, 63);
+color:#ffffff;
+text-align:left;
+vertical-align:text-top;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+
+p.personalProject
+{
+height:30px;
+width:205px;
+background-color: rgb(56, 186, 215);
 color:#ffffff;
 text-align:left;
 vertical-align:text-top;
@@ -89,6 +129,7 @@ img.Thumbnail
     color: rgb(122, 175, 227);
     text-align: justify;
     font-size: large;
+    font-family: Conduit;
   }
 
  a {
@@ -97,34 +138,45 @@ img.Thumbnail
  }
 
   a:link {
-    color:aqua;
+    color:rgb(255, 255, 255);
   }
 
   a:visited  {
- color:cadetblue;
+ color:rgb(186, 65, 65);
   }
 
   a:active {
-    color:aquamarine;
+    color:rgb(165, 248, 220);
   }
 
   a:hover {
- color:darkcyan;
+ color:rgb(89, 197, 197);
   }
 
   li {
     display: inline;
     float:left;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(96, 82, 184);
+    font-family: Conduit;
+    background-color: rgb(19, 15, 92);
+    border: #b6ad0a;
     border-width: auto;
-    border-style: dashed;
-    border-color: rgb(69, 69, 69);
+    border-style: solid;
 
   }
 
   ul {
     list-style-type: none;
     position: sticky;
+  }
+
+  @font-face {
+    font-family: Conduit_Bold;
+    src: url(Conduit_ITC_Bold.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Conduit;
+    src: url(Conduit_ITC_Medium_Regular.otf);
+    font-weight: bold;
   }
