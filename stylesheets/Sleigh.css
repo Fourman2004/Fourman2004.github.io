@@ -1,4 +1,11 @@
-
+:root{
+  --Norway-spruce: #113d00;
+  --Sprouts-green: #66b324;
+  --mincepie-pastry: #eace96;
+  --Ho-ho-ho-red: #af0a08;
+  --mulled-spice: #400822;
+  --pudding-brown: #17050e;
+}
  body {
   background-color: rgb(34, 29, 65);
  }

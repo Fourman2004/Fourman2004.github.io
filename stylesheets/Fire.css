@@ -1,4 +1,12 @@
-
+:root{
+  --silver: #cdc6c7ff;
+--timberwolf: #e2dadbff;
+--platinum: #e9e9e9ff;
+--platinum-2: #dae2dfff;
+--ash-gray: #a2a7a5ff;
+--dim-gray: #6d696aff;
+--white: #ffffffff;
+}
  body {
   background-color: rgb(34, 29, 65);
  }

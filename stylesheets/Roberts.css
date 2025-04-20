@@ -1,4 +1,12 @@
-
+:root{
+--falu-red: #86141eff;
+--carmine: #931621ff;
+--dark-slate-gray: #28464bff;
+--caribbean-current: #326771ff;
+--blue-munsell: #2c8c99ff;
+--turquoise: #42d9c8ff;
+--turquoise-2: #53dccdff;
+}
  body {
   background-color: rgb(34, 29, 65);
  }

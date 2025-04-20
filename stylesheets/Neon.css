@@ -1,4 +1,15 @@
-
+:root
+{
+  --jasper: #c55243ff;
+  --jasper-2: #d95a4aff;
+  --tomato: #ef6351ff;
+  --salmon: #f38375ff;
+  --melon: #f7a399ff;
+  --melon-2: #fbc3bcff;
+  --misty-rose: #ffe3e0ff;
+  --misty-rose-2: #ffe6e3ff;
+  --misty-rose-3: #ffe8e6ff;
+}
  body {
   background-color: rgb(34, 29, 65);
  }

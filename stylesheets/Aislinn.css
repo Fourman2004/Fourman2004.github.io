@@ -1,4 +1,16 @@
 
+:root {
+  --magenta-dye: #d30c7bff;
+  --thulian-pink: #e978acff;
+  --misty-rose: #ffe3dcff;
+  --pale-dogwood: #edccc5ff;
+  --tea-rose-red: #dbb4adff;
+  --khaki: #bfb19fff;
+  --sage: #a2ad91ff;
+  --dim-gray: #6e6d62ff;
+  --raisin-black: #3a2d32ff;
+}
+
  body {
   background-color: rgb(0, 255, 242);
  }

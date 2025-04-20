@@ -1,4 +1,12 @@
-
+:root{
+  --eerie-black: #181c14ff;
+--eerie-black-2: #1a1f16ff;
+--pakistan-green: #1e3f20ff;
+--hunter-green: #345830ff;
+--fern-green: #4a7856ff;
+--aquamarine: #94ecbeff;
+--celadon: #9eeec4ff;
+}
  body {
   background-color: rgb(34, 29, 65);
  }

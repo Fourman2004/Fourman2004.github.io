@@ -1,4 +1,12 @@
-
+:root{
+  --eerie-black: #262726ff;
+--jet: #2a2b2aff;
+--eggplant: #5e4955ff;
+--chinese-violet: #996888ff;
+--rosy-brown: #c99da3ff;
+--columbia-blue: #c6ddf0ff;
+--columbia-blue-2: #cbe0f1ff;
+}
  body {
   background-color: rgb(34, 29, 65);
  }

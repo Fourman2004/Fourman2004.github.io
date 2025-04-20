@@ -1,22 +1,34 @@
+:root {
+  --gunmetal: #222929ff;
+  --gunmetal-2: #252d2dff;
+  --gunmetal-3: #293132ff;
+  --onyx: #38393bff;
+  --jet: #474044ff;
+  --davys-gray: #4f5165ff;
+  --glaucous: #547aa5ff;
+  --robin-egg-blue: #50d8d7ff;
+  --tiffany-blue: #60dcdbff;
+  --tiffany-blue-2: #6edfdeff;
+}
 
  body {
-  background-color: rgb(15, 0, 113);
+  background-color: var(--gunmetal);
  }
   
   h1 {
-    color: rgb(170, 19, 19);
+    color:  var(--robin-egg-blue);;
    text-align:center;
    font-family: Conduit_Bold;
   }
   
   h2 {
-  color: rgb(149, 64, 12);
+  color: var(--glaucous);
   text-align:center;
   font-family: Conduit_Bold;
   }
   
   h3 {
-  color: rgb(201, 101, 101);
+  color: var(--davys-gray);
   text-align:center;
   font-family: Conduit_Bold;
   }
@@ -32,7 +44,7 @@ div.Showcase {
     margin-bottom: 10px;
     margin-left: 10px;
     float:left;
-    border-color: rgb(255, 179, 0);
+    border-color:var(--jet);
     height: 390px;
     width: 205px;
 }
@@ -45,7 +57,7 @@ div.Social {
   margin-left: 10px;
   float:left;
   margin-top: 250px;
-  border-color: rgb(228, 145, 0);
+  border-color: var(--jet);
   height: 220px;
   width: 225px;
 }
@@ -60,21 +72,21 @@ a.Email {
 }
 
 p.github {
-  background-color: rgb(231, 30, 154);
+  background-color: var(--gunmetal-2);
   text-align: center;
   height:30px;
  width: 205px;;
 }
 
 p.GGJ {
-  background-color: rgb(44, 144, 191);
+  background-color:var(--gunmetal-3);
   text-align: center;
  height:30px;
  width: 205px;;
 }
 
 p.itch {
-  background-color: rgb(251, 134, 104);
+  background-color: var(--tiffany-blue);
   color:#ffffff;
   height: 30px;
   text-align: center;
@@ -158,7 +170,7 @@ img.Thumbnail
     float:left;
     font-family: Conduit;
     background-color: rgb(19, 15, 92);
-    border: #b6ad0a;
+    border: var(--onyx);
     border-width: auto;
     border-style: solid;
 

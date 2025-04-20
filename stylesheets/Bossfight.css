@@ -1,4 +1,12 @@
-
+:root{
+  --french-gray: #c2b3b6ff;
+--french-gray-2: #d5c5c8ff;
+--cadet-gray: #9da3a4ff;
+--wenge: #604d53ff;
+--puce: #db7f8eff;
+--misty-rose: #ffdbdaff;
+--misty-rose-2: #ffdeddff;
+}
  body {
   background-color: rgb(34, 29, 65);
  }

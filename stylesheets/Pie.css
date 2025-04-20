@@ -1,3 +1,12 @@
+:root{
+  --citron: #d4c579ff;
+  --flax: #e9d985ff;
+  --olivine: #b2bd7eff;
+  --asparagus: #749c75ff;
+  --chinese-violet: #6a5d7bff;
+  --english-violet: #5d4a66ff;
+  --chinese-violet-2: #6c5a74ff;
+}
 
  body {
   background-color: rgb(34, 29, 65);

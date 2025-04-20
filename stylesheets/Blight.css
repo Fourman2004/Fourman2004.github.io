@@ -1,3 +1,11 @@
+:root {
+  --dark-green: #1b3022ff;
+  --dark-slate-gray: #395756ff;
+  --paynes-gray: #4f5d75ff;
+  --ultra-violet: #7261a3ff;
+  --african-violet: #a67db8ff;
+}
+
 
  body {
   background-color: rgb(34, 29, 65);

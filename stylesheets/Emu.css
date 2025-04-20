@@ -1,3 +1,12 @@
+:root{
+  --sunset: #e8c992ff;
+--navajo-white: #ffdda1ff;
+--sunglow: #ffd151ff;
+--saffron: #f8c537ff;
+--xanthous: #edb230ff;
+--pumpkin: #e77728ff;
+--pumpkin-2: #e9833cff;
+}
 
  body {
   background-color: rgb(34, 29, 65);
