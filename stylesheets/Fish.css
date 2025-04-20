@@ -1,4 +1,12 @@
-
+:root{
+ --midnight-green: #004e64ff;
+--cerulean: #007a9aff;
+--pacific-cyan: #00a5cfff;
+--aquamarine: #9fffcbff;
+--persian-green: #25a18eff;
+--emerald: #50c388ff;
+--light-green: #7ae582ff;
+}
  body {
   background-color: rgb(34, 29, 65);
  }
