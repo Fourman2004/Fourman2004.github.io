@@ -1,50 +1,37 @@
 :root {
   --dark-green: #1b3022ff;
+  --dark-green-2: #0a3022ff;
   --dark-slate-gray: #395756ff;
+  --dark-slate-gray-2: #386756ff;
   --paynes-gray: #4f5d75ff;
   --ultra-violet: #7261a3ff;
+  --ultra-violet-2: #8371a3ff;
   --african-violet: #a67db8ff;
+  --african-violet-2: #b67db8ff;
 }
 
 
  body {
-  background-color: rgb(34, 29, 65);
+  background-color: var(--dark-green-2);
  }
   
   h1 {
-    color: rgb(116, 193, 193);
+    color: var(--ultra-violet);
    text-align:center;
   }
   
   h2 {
-  color: lightslategray;
+  color:  var(--african-violet-2);
   text-align:center;
   }
   
   h3 {
-  color: rgb(114, 101, 201);
+  color: var(--ultra-violet-2);
   text-align:center;
   }
-  
-
-
-p.github {
-  background-color: rgb(231, 30, 154);
-  text-align: center;
-  height:40px;
- width: 205px;;
-}
-
-
-p.itch {
-  background-color: rgb(13, 114, 192);
-  height:40px;
-  text-align: center;
-  width:205px;
-}
 
   p {
-    color: rgb(122, 175, 227);
+    color: var(--african-violet);
     text-align: justify;
     font-size: large;
   }
@@ -55,19 +42,19 @@ p.itch {
  }
 
   a:link {
-    color:aqua;
+    color:var(--dark-slate-gray-2);
   }
 
   a:visited  {
- color:cadetblue;
+ color: var(--dark-slate-gray);
   }
 
   a:active {
-    color:aquamarine;
+    color: var(--paynes-gray);
   }
 
   a:hover {
- color:darkcyan;
+ color: var(--african-violet-2);
   }
 
   li {
@@ -75,10 +62,10 @@ p.itch {
     float:left;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(96, 82, 184);
+    background-color: var(--dark-green);
     border-width: auto;
-    border-style: dashed;
-    border-color: rgb(69, 69, 69);
+    border-style: Solid;
+    border-color: var(--dark-slate-gray);
 
   }
 

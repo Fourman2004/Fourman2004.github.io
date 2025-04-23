@@ -3,98 +3,34 @@
 --jet: #2a2b2aff;
 --eggplant: #5e4955ff;
 --chinese-violet: #996888ff;
+--chinese-violet-4: #994888ff;
+--chinese-violet-3: #987878ff;
+--chinese-violet-2: #991888ff;
 --rosy-brown: #c99da3ff;
 --columbia-blue: #c6ddf0ff;
 --columbia-blue-2: #cbe0f1ff;
 }
  body {
-  background-color: rgb(34, 29, 65);
+  background-color: var(--eerie-black);
  }
   
   h1 {
-    color: rgb(116, 193, 193);
+    color: var(--eggplant);
    text-align:center;
   }
   
   h2 {
-  color: lightslategray;
+  color: var(--rosy-brown);
   text-align:center;
   }
   
   h3 {
-  color: rgb(114, 101, 201);
+  color: var(--columbia-blue);
   text-align:center;
   }
-  
-div.work{
-  margin-top: 500px;
-}
-  
-div.Showcase {
-    border-width: 10px;
-    border-style:solid;
-    margin:auto;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    float:left;
-    border-color: rgb(69, 69, 69);
-    height: 390px;
-    width: 205px;
-}
-
-div.Social {
-  border-width: 10px;
-  border-style:solid;
-  margin:auto;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  float:left;
-  border-color: rgb(64, 233, 137);
-  height: 220px;
-  width: 225px;
-}
-
-p.github {
-  background-color: rgb(231, 30, 154);
-  text-align: center;
-  height:40px;
- width: 205px;;
-}
-
-p.GGJ {
-  background-color: rgb(15, 219, 192);
-  text-align: center;
-  height:40px;
- width: 205px;;
-}
-
-p.itch {
-  background-color: rgb(13, 114, 192);
-  height:40px;
-  text-align: center;
-  width:205px;
-}
-
-p.project-name
-{
-height:40px;
-width:205px;
-background-color: rgb(118, 13, 150);
-color:#ffffff;
-text-align:left;
-vertical-align:text-top;
-line-height:auto;
-border-style:hidden;
-outline:none;
-}
-
-img.Thumbnail
-{
-  position: relative;
-}
 
   p {
-    color: rgb(122, 175, 227);
+    color: var(--eggplant);
     text-align: justify;
     font-size: large;
   }
@@ -105,19 +41,19 @@ img.Thumbnail
  }
 
   a:link {
-    color:aqua;
+    color:var(--chinese-violet);
   }
 
   a:visited  {
- color:cadetblue;
+ color: var(--chinese-violet-3);
   }
 
   a:active {
-    color:aquamarine;
+    color: var(--chinese-violet-2);
   }
 
   a:hover {
- color:darkcyan;
+ color: var(--chinese-violet-4);
   }
 
   li {
@@ -125,10 +61,10 @@ img.Thumbnail
     float:left;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(96, 82, 184);
+    background-color: var(--columbia-blue-2);
     border-width: auto;
-    border-style: dashed;
-    border-color: rgb(69, 69, 69);
+    border-style: solid;
+    border-color: var(--chinese-violet-2);
 
   }
 

@@ -1,42 +1,36 @@
 :root{
---ecru: #cdb888ff;
---peach-yellow: #e1ca96ff;
---sage: #aca885ff;
---battleship-gray: #918b76ff;
---ebony: #626c66ff;
---black-olive: #434a42ff;
---ebony-2: #545a53ff;
+  --ecru: #cdb888ff;
+  --ecru-2: #d7c18fff;
+  --peach-yellow: #e1ca96ff;
+  --ecru-3: #c7b98eff;
+  --sage: #aca885ff;
+  --battleship-gray: #918b76ff;
+  --battleship-gray-2: #7a7c6eff;
+  --ebony: #626c66ff;
+  --black-olive: #434a42ff;
+  --ebony-2: #545a53ff;
 }
  body {
-  background-color: rgb(34, 29, 65);
+  background-color: var(--ecru);
  }
   
   h1 {
-    color: rgb(116, 193, 193);
+    color: var(--black-olive);
    text-align:center;
   }
   
   h2 {
-  color: lightslategray;
+  color: var(--ebony);
   text-align:center;
   }
   
   h3 {
-  color: rgb(114, 101, 201);
+  color: var(--sage);
   text-align:center;
   }
   
-
-
-p.github {
-  background-color: rgb(231, 30, 154);
-  text-align: center;
-  height:40px;
- width: 205px;;
-}
-
   p {
-    color: rgb(122, 175, 227);
+    color: var(--ebony-2);
     text-align: justify;
     font-size: large;
   }
@@ -47,19 +41,19 @@ p.github {
  }
 
   a:link {
-    color:aqua;
+    color:var(--peach-yellow);
   }
 
   a:visited  {
- color:cadetblue;
+ color: var(--ecru-2);
   }
 
   a:active {
-    color:aquamarine;
+    color: var(--battleship-gray-2);
   }
 
   a:hover {
- color:darkcyan;
+ color: var(--ecru-3);
   }
 
   li {
@@ -67,10 +61,10 @@ p.github {
     float:left;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(96, 82, 184);
+    background-color: var(--black-olive);
     border-width: auto;
-    border-style: dashed;
-    border-color: rgb(69, 69, 69);
+    border-style: block;
+    border-color: var(--peach-yellow);
 
   }
 
