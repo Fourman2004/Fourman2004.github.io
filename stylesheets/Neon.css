@@ -29,26 +29,6 @@
   text-align:center;
   }
   
-
-
-p.github {
-  background-color: rgb(231, 30, 154);
-  text-align: center;
-  height:40px;
- width: 205px;;
-}
-
-
-
-p.itch {
-  background-color: rgb(13, 114, 192);
-  height:40px;
-  text-align: center;
-  width:205px;
-}
-
-
-
   p {
     color: rgb(122, 175, 227);
     text-align: justify;
@@ -83,7 +63,7 @@ p.itch {
     padding: 0px;
     background-color: rgb(96, 82, 184);
     border-width: auto;
-    border-style: dashed;
+    border-style: Solid;
     border-color: rgb(69, 69, 69);
 
   }

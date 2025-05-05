@@ -8,42 +8,26 @@
 --white: #ffffffff;
 }
  body {
-  background-color: rgb(34, 29, 65);
+  background-color: var(--platinum-2);
  }
   
   h1 {
-    color: rgb(116, 193, 193);
+    color: var(--dim-gray);
    text-align:center;
   }
   
   h2 {
-  color: lightslategray;
+  color:var(--platinum);
   text-align:center;
   }
   
   h3 {
-  color: rgb(114, 101, 201);
+  color: var(--silver);
   text-align:center;
   }
   
-
-p.github {
-  background-color: rgb(231, 30, 154);
-  text-align: center;
-  height:40px;
- width: 205px;;
-}
-
-p.itch {
-  background-color: rgb(13, 114, 192);
-  height:40px;
-  text-align: center;
-  width:205px;
-}
-
-
   p {
-    color: rgb(122, 175, 227);
+    color: var(--timberwolf);
     text-align: justify;
     font-size: large;
   }
@@ -54,19 +38,19 @@ p.itch {
  }
 
   a:link {
-    color:aqua;
+    color: var(--platinum);
   }
 
   a:visited  {
- color:cadetblue;
+ color:var(--platinum-2);
   }
 
   a:active {
-    color:aquamarine;
+    color:var(--silver);
   }
 
   a:hover {
- color:darkcyan;
+ color: white;
   }
 
   li {
@@ -74,10 +58,10 @@ p.itch {
     float:left;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(96, 82, 184);
+    background-color: var(--ash-gray);
     border-width: auto;
-    border-style: dashed;
-    border-color: rgb(69, 69, 69);
+    border-style: solid;
+    border-color: var(--white);
 
   }
 
