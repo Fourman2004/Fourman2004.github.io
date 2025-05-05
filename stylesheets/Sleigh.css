@@ -14,6 +14,7 @@
   h1 {
     color: var(--Norway-spruce);
    text-align:center;
+   font-family: Conduit_Bold;
   }
   
   h2 {
@@ -68,4 +69,16 @@
   ul {
     list-style-type: none;
     position: sticky;
+  }
+
+  @font-face {
+    font-family: Conduit_Bold;
+    src: url(Conduit_ITC_Bold.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Conduit;
+    src: url(Conduit_ITC_Medium_Regular.otf);
+    font-weight: bold;
   }

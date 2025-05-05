@@ -1,6 +1,8 @@
 :root{
 --falu-red: #86141eff;
 --carmine: #931621ff;
+--Wine: #7B0323ff;
+--Wine-2: #8B0234ff;
 --dark-slate-gray: #28464bff;
 --caribbean-current: #326771ff;
 --blue-munsell: #2c8c99ff;
@@ -14,22 +16,26 @@
   h1 {
     color: var(--falu-red);
    text-align:center;
+   font-family: Conduit_Bold;
   }
   
   h2 {
   color: var(--dark-slate-gray);
   text-align:center;
+  font-family: Conduit_Bold;
   }
   
   h3 {
   color: var(--turquoise-2);
   text-align:center;
+  font-family: Conduit_Bold;
   }
 
   p {
     color: var(--carmine);
     text-align: justify;
     font-size: large;
+    font-family: Conduit;
   }
 
  a {
@@ -38,19 +44,19 @@
  }
 
   a:link {
-    color:aqua;
+    color: crimson;
   }
 
   a:visited  {
- color:cadetblue;
+ color:var(--carmine);
   }
 
   a:active {
-    color:aquamarine;
+    color: var(--Wine);
   }
 
   a:hover {
- color:darkcyan;
+ color:var(--Wine-2);
   }
 
   li {
@@ -68,4 +74,16 @@
   ul {
     list-style-type: none;
     position: sticky;
+  }
+
+  @font-face {
+    font-family: Conduit_Bold;
+    src: url(Conduit_ITC_Bold.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Conduit;
+    src: url(Conduit_ITC_Medium_Regular.otf);
+    font-weight: bold;
   }

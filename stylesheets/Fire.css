@@ -14,22 +14,26 @@
   h1 {
     color: var(--dim-gray);
    text-align:center;
+   font-family: Conduit_Bold;
   }
   
   h2 {
   color:var(--platinum);
   text-align:center;
+  font-family: Conduit_Bold;
   }
   
   h3 {
   color: var(--silver);
   text-align:center;
+  font-family: Conduit_Bold;
   }
   
   p {
     color: var(--timberwolf);
     text-align: justify;
     font-size: large;
+    font-family: Conduit;
   }
 
  a {
@@ -68,4 +72,16 @@
   ul {
     list-style-type: none;
     position: sticky;
+  }
+
+  @font-face {
+    font-family: Conduit_Bold;
+    src: url(Conduit_ITC_Bold.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Conduit;
+    src: url(Conduit_ITC_Medium_Regular.otf);
+    font-weight: bold;
   }

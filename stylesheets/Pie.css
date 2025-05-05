@@ -2,33 +2,35 @@
   --citron: #d4c579ff;
   --flax: #e9d985ff;
   --olivine: #b2bd7eff;
+  --olivine-2: #a2ac8eff;
   --asparagus: #749c75ff;
   --chinese-violet: #6a5d7bff;
   --english-violet: #5d4a66ff;
+  --english-violet-2: #5e4b85ff;
   --chinese-violet-2: #6c5a74ff;
 }
 
  body {
-  background-color: rgb(34, 29, 65);
+  background-color: var(--asparagus);
  }
   
   h1 {
-    color: rgb(116, 193, 193);
+    color: var(--citron);
    text-align:center;
   }
   
   h2 {
-  color: lightslategray;
+  color: var(--olivine);
   text-align:center;
   }
   
   h3 {
-  color: rgb(114, 101, 201);
+  color: var(--flax);
   text-align:center;
   }
   
   p {
-    color: rgb(122, 175, 227);
+    color: var(--olivine-2);
     text-align: justify;
     font-size: large;
   }
@@ -39,19 +41,19 @@
  }
 
   a:link {
-    color:aqua;
+    color:var(--english-violet-2);
   }
 
   a:visited  {
- color:cadetblue;
+ color:var(--chinese-violet);
   }
 
   a:active {
-    color:aquamarine;
+    color:var(--chinese-violet-2);
   }
 
   a:hover {
- color:darkcyan;
+ color:var(--english-violet);
   }
 
   li {
@@ -59,10 +61,10 @@
     float:left;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(96, 82, 184);
+    background-color: var(--flax);
     border-width: auto;
     border-style: solid;
-    border-color: rgb(69, 69, 69);
+    border-color: var(--olivine);
 
   }
 

@@ -9,28 +9,33 @@
 }
 
  body {
-  background-color: rgb(0, 255, 242);
+  background-color: var(--dark-slate-gray);
  }
   
   h1 {
-    color: rgb(196, 197, 197);
+    color: var(--caribbean-current);
    text-align:center;
+   font-family: Conduit_Bold;
   }
   
   h2 {
-  color: rgb(29, 251, 129);
+  color: var(--teal);
   text-align:center;
+  font-family: Conduit_Bold;
   }
   
   h3 {
-  color: rgb(95, 199, 35);
+  color: var(--moss-green);
   text-align:center;
+  font-family: Conduit_Bold;
   }
 
   p {
-    color: rgb(122, 175, 227);
+    color: gray;
+    font-family: Conduit;
     text-align: justify;
     font-size: large;
+    font-family: Conduit;
   }
 
  a {
@@ -39,19 +44,19 @@
  }
 
   a:link {
-    color:aqua;
+    color:olivedrab;
   }
 
   a:visited  {
- color:cadetblue;
+ color: var(--olivine);
   }
 
   a:active {
-    color:aquamarine;
+    color: var(--olivine-2);
   }
 
   a:hover {
- color:darkcyan;
+ color:olive;
   }
 
   li {
@@ -59,14 +64,27 @@
     float:left;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(96, 82, 184);
+    background-color: var(--moss-green);
     border-width: auto;
     border-style: SOlid;
-    border-color: rgb(69, 69, 69);
+    border-color: var(--hookers-green);
 
   }
 
   ul {
     list-style-type: none;
     position: sticky;
+  }
+
+  
+  @font-face {
+    font-family: Conduit_Bold;
+    src: url(Conduit_ITC_Bold.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Conduit;
+    src: url(Conduit_ITC_Medium_Regular.otf);
+    font-weight: bold;
   }
