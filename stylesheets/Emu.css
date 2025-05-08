@@ -12,7 +12,7 @@
 }
 
  body {
-  background-color: var(--navajo-white);
+  background-color: var(--xanthous);
  }
   
   h1 {
@@ -28,7 +28,7 @@
   }
   
   h3 {
-  color: var(--saffron);
+  color: var(--golden-hour);
   text-align:center;
   font-family: Conduit_Bold;
   }
@@ -58,7 +58,7 @@
   }
 
   a:hover {
- color: var(--golden-hour);
+ color: var(--saffron);
   }
 
   li {
@@ -69,7 +69,7 @@
     background-color: var(--xanthous);
     border-width: auto;
     border-style: solid;
-    border-color: var(--navajo-white);
+    border-color: var(--sunset);
 
   }
 
