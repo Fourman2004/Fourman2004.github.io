@@ -33,10 +33,6 @@
   font-family: Conduit_Bold;
   }
   
-div.work{
-  margin-top: 500px;
-}
-  
 div.Showcase {
     border-width: 10px;
     border-style:solid;
@@ -53,20 +49,18 @@ div.Social {
   border-width: 10px;
   border-style:solid;
   margin:auto;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  position: relative;
   float:left;
-  margin-top: 250px;
   border-color: var(--jet);
   height: 220px;
   width: 225px;
+  top: 50px; 
+  left: 375px;
 }
 
 a.Email {
   font-family: Conduit_Bold;
   position: relative;
-  top: 150px;
-  right: 100px;
   text-align: center;
   font-size: larger;
 }
@@ -135,6 +129,14 @@ outline:none;
 img.Thumbnail
 {
   position: relative;
+}
+
+div{
+  padding: 25px;
+  padding-top: 0px;
+  border-width: auto;
+  border-color: var(--onyx);
+  border-style: solid;
 }
 
   p {
