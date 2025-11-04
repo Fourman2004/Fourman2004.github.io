@@ -103,7 +103,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #0062b9;
+    background: #38393bff;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -137,8 +137,8 @@ textarea {
   width: 92%; }
 
 .btn {
-  background: #50d8d7ff;
-  color: #474044ff;
+  background: #474044ff;
+  color: #50d8d7ff;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -247,7 +247,7 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: #38393bff; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -265,7 +265,7 @@ textarea {
           font-size: 2.4rem; } }
     .about__content-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: #547aa5ff;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -328,7 +328,7 @@ textarea {
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: white;
+    background: #293132ff;
     padding: 4rem;
     margin-top: 6rem;
     max-width: 80rem;
@@ -359,7 +359,7 @@ textarea {
     border: 1px solid #ebebeb;
     font-size: 1.6rem;
     letter-spacing: 0px;
-    background: #f0f0f0;
+    background: #547aa5ff;
     border-radius: 5px;
     font-weight: 600;
     /* Code for Modern Browsers */
@@ -401,6 +401,7 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
         width: 100%; } }
+
 
 .project-cs-hero {
   color: #fff;
@@ -497,8 +498,8 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  background: #60dcd7ff;
+  background: #474044ff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -538,6 +539,7 @@ textarea {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
+    color: #6edfdeff;
     letter-spacing: 1px; }
   .header__links {
     display: flex; }
@@ -548,7 +550,7 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #50d8d7ff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -608,7 +610,7 @@ textarea {
     border-bottom: 0; }
 
 .main-footer {
-  background: #000;
+  background: #293132ff;
   color: #fff; }
   .main-footer__upper {
     display: flex;
