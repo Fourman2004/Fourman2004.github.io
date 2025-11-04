@@ -93,7 +93,7 @@ textarea {
   margin-bottom: 3.5rem;
   position: relative; }
   .heading-sec__main--lt {
-    color: #222929ff; }
+    color: #fff; }
     .heading-sec__main--lt::after {
       content: '';
       background: #fff !important; }
@@ -137,8 +137,8 @@ textarea {
   width: 92%; }
 
 .btn {
-  background: #fff;
-  color: #333;
+  background: #50d8d7ff;
+  color: #474044ff;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -155,10 +155,10 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #222929ff;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #222929ff;
     background: #fff;
     border: 2px solid #0062b9;
     box-shadow: none;
